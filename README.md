@@ -23,7 +23,7 @@ pip install torch torchvision numpy pandas scikit-learn pillow tqdm openfl
 chmod +x start_director.sh
 chmod +x start_envoy*.sh
 
-
-
+### **Start Vir::**
+source myvir/bin/activate
 
 
