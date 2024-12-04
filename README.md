@@ -16,7 +16,7 @@ python federated_multi_input.py
 ### **TensorBoard: Start TensorBoard to monitor metrics::**
 tensorboard --logdir runs
 
-### **Start the Federation and Training:**
+### **Necessary library: PYTHON: 3.8.20:**
 pip install torch torchvision numpy pandas scikit-learn pillow tqdm openfl
 
 ### **Run permission::**
