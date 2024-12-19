@@ -5,9 +5,10 @@
 
 ### **Start Envoys:**
 ./start_envoy.sh
-./start_envoy1.sh
 ./start_envoy2.sh
-...
+./start_envoy3.sh
+./start_envoy4.sh
+./start_envoy5.sh
 ./start_envoy6.sh
 
 ### **Start the Federation and Training:**
@@ -19,11 +20,11 @@ tensorboard --logdir runs
 ### **Necessary library: PYTHON: 3.8.20:**
 pip install torch torchvision numpy pandas scikit-learn pillow tqdm openfl
 
-### **Run permission::**
+### **Run permission:**
 chmod +x start_director.sh
 chmod +x start_envoy*.sh
 
-### **Start Vir::**
+### **Start Vir:**
 source myvir/bin/activate
 
 
