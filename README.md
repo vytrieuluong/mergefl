@@ -18,7 +18,7 @@ python federated_multi_input.py
 tensorboard --logdir runs
 
 ### **Necessary library: PYTHON: 3.8.20:**
-pip install torch torchvision numpy pandas scikit-learn pillow tqdm openfl
+pip install torch torchvision numpy pandas scikit-learn pillow tqdm openfl xlrd
 
 ### **Run permission:**
 chmod +x start_director.sh

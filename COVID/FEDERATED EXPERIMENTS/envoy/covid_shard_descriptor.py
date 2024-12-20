@@ -1,8 +1,5 @@
-# Copyright (C) 2020-2021 Intel Corporation
-# SPDX-License-Identifier: Apache-2.0
-
 """Covid Shard Descriptor."""
-
+# import the required libraries.
 import logging
 import os
 from typing import List
@@ -115,7 +112,8 @@ class CovidShardDescriptor(ShardDescriptor):
                                   )])
         #image_data = ImageDataset(excel_file="../train1AllColumns.xls", image_dir="../Trainset", transform=my_transform)
         #test_image_data = ImageDataset(excel_file="../test1AllColumns.xls", image_dir="../Testset", transform=my_transform)
-        image_data = ImageDataset(ospedale = self.hospital, excel_file="../trainANDtest.xls", image_dir="../DATASET", transform=my_transform)
+        image_data = ImageDataset(ospedale = self.hospital, excel_file="../trainANDtest.xls", image_dir="../DATASET", 
+                                  transform=my_transform)
         train_size = int(0.80 * len(image_data))
         val_size = int((len(image_data) - train_size))
         image_data, test_image_data = random_split(image_data, (train_size, val_size))
