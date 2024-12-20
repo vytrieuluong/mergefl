@@ -14,7 +14,7 @@
 ### **Start the Federation and Training:**
 python federated_multi_input.py
 
-### **TensorBoard: Start TensorBoard to monitor metrics::**
+### **TensorBoard: Start TensorBoard to monitor metrics:**
 tensorboard --logdir runs
 
 ### **Necessary library: PYTHON: 3.8.20:**
